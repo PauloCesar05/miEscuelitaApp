@@ -49,11 +49,11 @@
             <dic class="container">
                 <div class="row">
                     <div class="col-12">
-                        @yield('container');
+                        @yield('contenido');
                     </div>
                 </div>
             </div>
-            <footer>
+            <footer class="text-center">
                 <br>
                 MiEscuelaApp &copy; 2022
             </footer>
