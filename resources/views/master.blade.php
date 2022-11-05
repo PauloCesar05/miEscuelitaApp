@@ -11,7 +11,7 @@
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="{{url('/')}}">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +30,7 @@
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="{{url('alumnos')}}">Consultar</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="{{url('/alumno/registrar')}}">Registrar</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
