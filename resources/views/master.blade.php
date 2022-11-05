@@ -74,7 +74,7 @@
             </div>
             <footer class="text-center">
                 <br>
-                MiEscuelaApp &copy; 2022
+                MiEscuelitaApp &copy; 2022
             </footer>
             <script src="{{asset('js/bootstrap.js')}}"></script>
         
