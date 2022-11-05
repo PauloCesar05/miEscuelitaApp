@@ -29,8 +29,8 @@
                     <td>{{ $a->domicilio}}</td>
                     <td>{{ $a->telefono}}</td>
                     <td>
-                        <a href="" class="btn btn-primary btn-sm">Editar</a>
-                        <a href="" class="btn btn-danger btn-sm">Eliminar</a>
+                        <a href="{{url('/alumno/editar')}}/{{$a->id}}" class="btn btn-primary btn-sm">Editar</a>
+                        <a href="{{url('/alumno/eliminar')}}/{{$a->id}}" class="btn btn-danger btn-sm">Eliminar</a>
                     </td>
                 </tr>
                 @endforeach
@@ -40,4 +40,10 @@
     <div class="text-center">
         {{$alumnos->links()}}
     </div>
+
+    <style>
+        div nav ul{
+            justify-content: center;
+        }
+    </style>
 @stop
