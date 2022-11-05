@@ -4,6 +4,7 @@
     <h1>Registrar Alumno</h1><hr>
     <form action="{{ url('/alumno/guardar') }}" method="POST">
         @csrf
+        
         <div class="form-group">
             <label for="">No. Control:</label>
             <input type="text" class="form-control" name="n_control" required>
@@ -23,6 +24,7 @@
             <label for="">Edad:</label>
             <input type="date" class="form-control" name="fecha_nacimiento" required>
         </div>
+        
         <div class="form-group">
             <label for="">Domicilio:</label>
             <textarea name="domicilio" cols="30" rows="10" class="form-control"></textarea>

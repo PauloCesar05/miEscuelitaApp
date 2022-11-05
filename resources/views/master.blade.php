@@ -44,12 +44,12 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
+      
       </nav>
-
-            <dic class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        @yield('contenido');
+                        @yield('contenido')
                     </div>
                 </div>
             </div>
@@ -58,5 +58,6 @@
                 MiEscuelaApp &copy; 2022
             </footer>
             <script src="{{asset('js/bootstrap.js')}}"></script>
+        
 </body>
 </html>
